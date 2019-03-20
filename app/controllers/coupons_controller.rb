@@ -1,6 +1,6 @@
 class CouponsController < ApplicationController
   
-  ef index
+  def index
     @coupons = Coupon.all
   end
 
